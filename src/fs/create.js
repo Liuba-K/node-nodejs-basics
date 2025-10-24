@@ -1,12 +1,12 @@
-import fs from 'node:fs';
-import path from 'node:path';
+import { writeFile } from "node:fs/promises";
+import path from "node:path";
 
 const create = async () => {
-  const filePath = path.join('files', 'fresh.txt');
+  const filePath = path.join("files", "fresh.txt");
   try {
-    await fs.writeFile(filePath, 'I am fresh and young', { flag: 'wx' });
+    await writeFile(filePath, "I am fresh and young", { flag: "wx" });
   } catch (Error) {
-    console.error('FS operation failed');
+    console.error("FS operation failed");
   }
 };
 
