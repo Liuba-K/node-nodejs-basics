@@ -28,17 +28,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlreadyBored/node-nodejs-basics.git"
+    "url": "git+https://github.com/Liuba-K/node-nodejs-basics.git"
   },
   "keywords": [
     "nodejs",
     "assignments",
     "alreadybored"
   ],
-  "author": "alreadybored",
+  "author": "lubakundas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlreadyBored/node-nodejs-basics/issues"
+    "url": "https://github.com/Liuba-K/node-nodejs-basics/issues"
   },
-  "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme"
+  "homepage": "https://github.com/Liuba-K/node-nodejs-basics#readme"
 }
